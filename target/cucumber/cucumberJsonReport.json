@@ -1,0 +1,183 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9425139200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch the url and Navigate to login Page",
+            "match": {
+              "location": "stepDefinition.LoginWithWrapper.launchUrl()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-26T05:12:24.988Z",
+        "line": 14,
+        "name": "Login and validate login with multiple set of testdata (negative testcase)",
+        "description": "",
+        "id": "login-functionality-for-lambdatest-allpication;login-and-validate-login-with-multiple-set-of-testdata-(negative-testcase);;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 131986400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter valid Username as \u0027sampletest001@gmail.com\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027sampletest001@gmail.com\u0027",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinition.LoginWithWrapper.enterUserName(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77046400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter Password as \u0027Qwerty@0000\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Qwerty@0000\u0027",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefinition.LoginWithWrapper.enterPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2419220000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Select login button",
+            "match": {
+              "location": "stepDefinition.LoginWithWrapper.selectLogin()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@endtoend"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8151655600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch the url and Navigate to login Page",
+            "match": {
+              "location": "stepDefinition.LoginWithWrapper.launchUrl()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-26T05:12:37.115Z",
+        "line": 15,
+        "name": "Login and validate login with multiple set of testdata (negative testcase)",
+        "description": "",
+        "id": "login-functionality-for-lambdatest-allpication;login-and-validate-login-with-multiple-set-of-testdata-(negative-testcase);;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 99240300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter valid Username as \u0027sampletest001@gmail.com\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027sampletest001@gmail.com\u0027",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinition.LoginWithWrapper.enterUserName(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69620900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter Password as \u0027sdasdasd@0000\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027sdasdasd@0000\u0027",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefinition.LoginWithWrapper.enterPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 862379300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Select login button",
+            "match": {
+              "location": "stepDefinition.LoginWithWrapper.selectLogin()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@endtoend"
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality for LambdaTest Allpication",
+    "description": "",
+    "id": "login-functionality-for-lambdatest-allpication",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/loginWithWrapper.feature",
+    "tags": []
+  }
+]

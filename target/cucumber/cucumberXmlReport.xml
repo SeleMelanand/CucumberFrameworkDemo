@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="21.599">
+    <testcase classname="Login Functionality for LambdaTest Allpication" name="Login and validate login with multiple set of testdata (negative testcase)" time="12.093">
+        <system-out><![CDATA[Given Launch the url and Navigate to login Page.............................passed
+And Enter valid Username as 'sampletest001@gmail.com'.......................passed
+And Enter Password as 'Qwerty@0000'.........................................passed
+Then Select login button....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login Functionality for LambdaTest Allpication" name="Login and validate login with multiple set of testdata (negative testcase) 2" time="9.195">
+        <system-out><![CDATA[Given Launch the url and Navigate to login Page.............................passed
+And Enter valid Username as 'sampletest001@gmail.com'.......................passed
+And Enter Password as 'sdasdasd@0000'.......................................passed
+Then Select login button....................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
